@@ -2,14 +2,14 @@ import React from "react";
 import "./post.css";
 import { Link } from "react-router-dom";
 const Post = ({ post }) => {
-  const PF = "http://localhost:5000/images/";
+  const PF = "http://localhost:5000/api/images";
   return (
     <>
       <div className="post">
         {post.photo && <img src={PF + post.photo} alt="postimge" />}
         <div className="postDetails">
           <div className="postInfos">
-            {post.categories.map((c) => (
+            {[1,2, 3, 5].map((c) => (
               <span key={c._id} className="postinfo">
                 {c.name}
               </span>
