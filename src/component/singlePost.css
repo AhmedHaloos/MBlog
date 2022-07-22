@@ -1,0 +1,96 @@
+@import url("https://fonts.googleapis.com/css2?family=Varela+Round&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Arima&family=Josefin+Sans:ital,wght@0,600;1,100;1,200;1,300;1,400&family=Lora:ital,wght@1,400;1,500;1,600&family=Varela&family=Varela+Round&display=swap");
+.mainPost {
+  flex: 9;
+  margin-top: 5rem;
+}
+
+.postD {
+  padding: 25px;
+  padding-right: 0;
+}
+.postD img {
+  width: 97%;
+  height: 16rem;
+  border-radius: 4px;
+  object-fit: cover;
+  margin-bottom: 0.8rem;
+}
+
+.postHead {
+  margin: 0.8rem 0 1.2rem auto;
+  text-align: center;
+  font-family: "Lora", serif;
+  font-size: 28px;
+}
+.cruds {
+  float: right;
+  font-size: 15px;
+  margin-top: 1em;
+}
+.cruds i {
+  margin-left: 1em;
+  cursor: pointer;
+  color: #b39656;
+  float: right;
+}
+.info {
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: space-between;
+  font-size: 16px;
+  font-family: "Varela Round", sans-serif;
+  color: #b39656;
+}
+.info .time {
+  margin-right: 1.5rem;
+}
+.titlesContainer p {
+  color: #666;
+  font-size: 18px;
+  line-height: 25px;
+  text-align: left;
+}
+.titlesContainer p::first-letter {
+  margin-left: 20px;
+  font-size: 30px;
+  font-weight: 600;
+}
+.postHeadInput {
+  margin: 0.8rem 0 1.2rem auto;
+  text-align: left;
+  font-family: "Lora", serif;
+  font-size: 28px;
+  border: 0;
+  border-bottom: 1px solid #aaa;
+  padding: 0.2em;
+  width: 80%;
+}
+
+.postHeadInput:focus {
+  outline: none;
+}
+
+.postDescTextArea {
+  text-align: left;
+  font-family: "Lora", serif;
+  font-size: 18px;
+  border: 0;
+  border-bottom: 1px solid #aaa;
+  padding: 0.2em;
+  width: 80%;
+}
+.postDescTextArea:focus {
+  outline: none;
+}
+.updatebtn {
+  margin-block: 1rem;
+  background-color: #fff;
+  color: rgb(230, 48, 28);
+  border: 1px solid rgb(248, 48, 26);
+  border-radius: 2px;
+  padding: 0.5rem 0.8rem;
+  font-family: "Lora" serif;
+  font-size: 0.9rem;
+  cursor: pointer;
+}

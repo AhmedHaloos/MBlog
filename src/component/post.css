@@ -1,0 +1,55 @@
+.post {
+  width: 90%;
+  margin-left: 2rem;
+  margin-top: 2rem;
+}
+.post img {
+  width: 100%;
+  border-radius: 6px;
+  object-fit: cover;
+}
+.postDetails {
+  display: flex;
+  flex-direction: column;
+  margin-block: 1rem;
+}
+.postInfos {
+  font-family: "Varela Rounde", sans-serif;
+  font-size: 0.7em;
+  color: #cca362;
+  line-height: 2rem;
+}
+.postinfo:nth-child(1) {
+  cursor: pointer;
+}
+.postinfo:nth-child(2),
+.postinfo:nth-child(3) {
+  margin-left: 2em;
+  cursor: pointer;
+}
+.postDetails h2 {
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  cursor: pointer;
+}
+.postTitle {
+  font-family: "Varela Round", sans-serif;
+  font-weight: 100;
+  font-size: 16px;
+  margin-bottom: 1rem;
+  color: #444;
+  line-height: 24px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 5;
+  -webkit-box-orient: vertical;
+}
+.postDate {
+  font-family: "Lora", serif;
+  font-style: italic;
+  font-size: 13px;
+  color: rgb(102, 102, 102);
+  line-height: 2rem;
+}

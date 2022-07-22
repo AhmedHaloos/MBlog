@@ -1,0 +1,159 @@
+* {
+  box-sizing: border-box;
+}
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,500;1,100&family=Lora:ital@1&display=swap");
+.register {
+  font-family: "Josefin Sans", sans-serif;
+  display: flex;
+  height: 100vh;
+}
+
+.Rleft {
+  overflow: hidden;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+  animation-name: Rleft;
+  animation-duration: 1s;
+  animation-fill-mode: both;
+  animation-delay: 1s;
+  margin-top: 2.8rem;
+}
+
+.Rright {
+  flex: 1;
+  background-color: black;
+  transition: 1s;
+  background-image: url("/images/15.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.Rheader > h2 {
+  margin: 0;
+  color: #007ac1;
+}
+
+.Rheader > h4 {
+  margin-top: 2rem;
+  font-weight: normal;
+  font-size: 14px;
+  color: #007ac1;
+}
+
+.Rform {
+  max-width: 80%;
+  display: flex;
+  flex-direction: column;
+}
+
+.Rform > p {
+  text-align: left;
+  margin-top: 0.4rem;
+}
+
+.Rform > p > a {
+  color: rgb(20, 20, 20);
+  font-size: 14px;
+}
+
+.Rform-field {
+  height: 44px;
+  padding: 0 16px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-family: "Lora", serif;
+  font-weight: 100;
+  outline: 0;
+  transition: 0.2s;
+  margin-top: 20px;
+}
+
+.Rform-field:focus {
+  border-color: #007ac1;
+}
+
+.Rform > button {
+  padding: 12px 10px;
+  border: 0;
+  background: linear-gradient(to right, #ad8b40 0%, #007ac1 100%);
+  border-radius: 2px;
+  margin-top: 2em;
+  color: #fff;
+  letter-spacing: 1px;
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: 200;
+  font-size: 1.2em;
+  cursor: pointer;
+}
+.err {
+  padding-block: 0.2em;
+  color: #8a6e33;
+  font-size: 0.9em;
+  font-weight: 200;
+}
+.Ranimation {
+  animation-name: move;
+  animation-duration: 0.4s;
+  animation-fill-mode: both;
+  animation-delay: 2s;
+}
+
+.a1 {
+  animation-delay: 2s;
+}
+
+.a2 {
+  animation-delay: 2.1s;
+}
+
+.a3 {
+  animation-delay: 2.2s;
+}
+
+.a4 {
+  animation-delay: 2.3s;
+}
+
+.a5 {
+  animation-delay: 2.4s;
+}
+
+.a6 {
+  animation-delay: 2.5s;
+}
+.a7 {
+  animation-delay: 2.6s;
+}
+.a8 {
+  animation-delay: 2.6s;
+}
+
+@keyframes move {
+  0% {
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(-40px);
+  }
+
+  100% {
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0);
+  }
+}
+
+@keyframes Rleft {
+  0% {
+    opacity: 0;
+    width: 0;
+  }
+
+  100% {
+    opacity: 1;
+    padding: 20px 40px;
+    width: 440px;
+  }
+}

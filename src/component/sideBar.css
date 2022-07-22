@@ -1,0 +1,58 @@
+@import url("https://fonts.googleapis.com/css2?family=Varela+Round&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Arima&family=Josefin+Sans:ital,wght@0,600;1,100;1,200;1,300;1,400&family=Lora:ital,wght@1,400;1,500;1,600&family=Varela&family=Varela+Round&display=swap");
+
+.sideBar {
+  flex: 3;
+}
+.sidBarItem {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin: 1rem;
+  font-family: "Varela Round", sans-serif;
+  color: #222;
+  font-size: 12px;
+}
+.sidBarTitle {
+  margin: 0.5rem;
+  padding: 0.5rem;
+  width: 80%;
+  border-top: 1px solid #a7a4a3;
+  border-bottom: 1px solid #a7a4a3;
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 1.2em;
+  color: #222;
+  font-weight: 600;
+  line-height: 25px;
+  text-align: center;
+}
+
+.sideBar img {
+  margin-top: 0.5em;
+  margin-left: 0.5em;
+  margin: 0.5em auto 0.7em 0.5em;
+  width: 11rem;
+  border-radius: 5px;
+}
+.sideBar p {
+  padding: 0.5em;
+  text-align: center;
+  line-height: 1rem;
+}
+.sidListItem {
+  display: inline-block;
+  width: 50%;
+  margin-top: 0.5rem;
+  cursor: pointer;
+}
+.social {
+  margin-top: 0.5rem;
+
+  display: flex;
+  justify-content: center;
+}
+.social i {
+  font-size: 1em;
+  margin-left: 1rem;
+  color: hsla(220, 1%, 50%, 0.9);
+}
